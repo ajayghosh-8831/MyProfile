@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+    <script src="calc.js" ></script>
+</head>
+<body>
+    <div class="mainDiv">
+        <h2>Calculator</h2>
+        <div class="innerDiv">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <input type="text" id="result">
+                    </td>
+                    <td><button class="acbutton" onclick="allClear()">AC</button> </td>
+                </tr>
+                <tr>
+                    <td><button class="num" onclick="displayData(7)">7</button></td>
+                    <td><button class="num" onclick="displayData(8)">8</button></td>
+                    <td><button class="num" onclick="displayData(8)">9</button></td>
+                    <td><button onclick="displayData('/')"  class="symbols"><span>&#247;</span></button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button class="num" onclick="displayData(5)">5</button></td>
+                    <td><button class="num" onclick="displayData(6)">6</button></td>
+                    <td><button onclick="displayData('*')" class="symbols"><span>&#215;</span></button></td>
+                </tr>
+                <tr>
+                    <td><button class="num" onclick="displayData(1)">1</button></td>
+                    <td><button class="num" onclick="displayData(2)">2</button></td>
+                    <td><button class="num" onclick="displayData(3)">3</button></td>
+                    <td><button onclick="displayData('-')"  class="symbols"><span>&#8722;</span></button></td>
+                </tr>
+                <tr>
+                    <td><button class="num" onclick="displayData(0)">0</button></td>
+                    <td><button onclick="displayData('.')" class="symbols">
+                        <span>&#8901;</span></button></td>
+                    <td><button onclick="findOut()"  class="symbols"><span>&#8316;</span></button></td>
+                    <td><button onclick="displayData('+')" class="symbols"><span>&#43;</span></button></td>
+                </tr>
+                <tr>
+                    <td><button class="symbols" onclick="allClear()">
+                        <span>&#8705;</span></button></td>
+                    <td colspan="3"><button class="symbols" style="width:100px;" onclick="backSpace()">BackSpace</button></td>
+            
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+</html>

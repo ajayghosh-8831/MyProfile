@@ -1,0 +1,50 @@
+body{
+    background-color:#64628c;
+}
+.mainDiv
+{
+width:100%;
+margin-left: 200px;
+margin-left: 500px;
+
+}
+h2
+{
+    font-weight: bold;
+    color: white;
+    margin-left:136px;
+}
+.innerDiv
+{
+    border: white 1px solid;
+    width:30%;
+    height:160px;
+}
+.acbutton
+{
+    background-color: #64628c;
+color: red;
+}
+#txtinput
+{
+    width: 310px;
+}
+button
+{
+    background-color:#64628c;
+    width:50px;
+    padding: 0%;
+    font-weight: bold;
+    color: white;
+}
+table
+{
+width: 90%;
+}
+tr{
+    width: 90%;
+}
+.symbols
+{
+color: rgb(255, 187, 0);
+}
